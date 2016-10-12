@@ -2,227 +2,269 @@
 <html>
 <head>
 	<title></title>
-	
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	<script type="text/javascript" src="js/jquery-1.12.1.js"></script>
+	<script type="text/javascript" src="slick/slick/slick.js"></script>
+	<script type="text/javascript" src="slick/slick/slick.min.js"></script>
 	<script type="text/javascript" src="js/abcd.js"></script>
+	<script type="text/javascript" src="js/slide.js"></script>
+	
+	<link href="slick/slick/slick.css" rel="stylesheet" type="text/css" />
+	<link href="slick/slick/slick-theme.css" rel="stylesheet" type="text/css" />
 	<link href="css/abcd design.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
-	<header class="site-header">
-		<div class="wrap">
-			<div class="title-area">
-				<a href="title.com">
-					<img src="img/title.jpg" width="214px" height="27px">
-			  </a>	
-			</div>
-			<div class="hamburger">
-				&#9776;
-			</div>
-			<div class="site-menu" >
-				<ul class="main-nav" id="mytopnav">
-					<li><a href="#" id="apurva-bio-link">APURVA'S BIO</a></li>
-					<li><a href="#" id="books-link">BOOKS</a></li>
-					<li><a href="#" id="case-studies-link">CASE STUDIES</a></li>
-					<li><a href="#" id="assignments-link">TEACHING ASSIGNMENTS</a></li>
-					<li><a href="#" id="speaking-link">SPEAKING SESSIONS</a></li>	
-					<li><a href="#" id="contact-link">CONTACT ME</a></li>
-					<!-- <li class="icon"><a href="javascript:void(0);" onclick="myFunction()">&#9776;</a></li> -->
-				</ul>
-			</div>
-		</div>
-	</header>
+	<link href="css/slide.css" rel="stylesheet" type="text/css" />
 
-<!-- for the first section -->
-	<div class="upper-section">
-		<div class="upper left-section" >
-			<div class="left-section-upper">
-				<div class="left-upper-image">
-					<a href="#">
-						<img src="img/2.jpg" alt="Go to!" width="" height="200px">
-					</a>
+	</head>
+	<body>
+		<!-- header of the website -->
+		<header class="site-header">
+			<div class="wrap">
+				<div class="title-area">
+					<a href="title.com">
+						<img src="img/title.jpg" width="214px" height="27px">
+				  </a>	
 				</div>
-				<div class="event calendar">
-					<a href="#"></a>
+				<div class="hamburger">
+					<a>&#9776;</a>
+				</div>
+				<div class="site-menu" >
+					<ul class="main-nav" id="mytopnav">
+						<li><a href="#" id="apurva-bio-link">APURVA'S BIO</a></li>
+						<li><a href="#" id="books-link">BOOKS</a></li>
+						<li><a href="#" id="case-studies-link">CASE STUDIES</a></li>
+						<li><a href="#" id="assignments-link">TEACHING ASSIGNMENTS</a></li>
+						<li><a href="#" id="speaking-link">SPEAKING SESSIONS</a></li>	
+						<li><a href="#" id="contact-link">CONTACT ME</a></li>
+						<!-- <li class="icon"><a href="javascript:void(0);" onclick="myFunction()">&#9776;</a></li> -->
+					</ul>
 				</div>
 			</div>
-			<div class="left-section-below">
-				<div class="left-below-image">
-					<a href="#">
-						<img src="img/1.jpg" alt="Go to!" width="" height="200px">
-					</a>
+		</header>
+
+		<!-- for the first section -->
+		<div class="upper-section">
+			<div class="upper left-section" >
+				<div class="left-section-upper">
+					<div class="left-upper-image">
+						<a href="#">
+							<img  src="img/event.jpg" alt="Go to!" width="" height="200px">
+						</a>
+					</div>
+					<div class="event calendar">
+						<a href="#"></a>
+					</div>
 				</div>
-				<div class="know-more">
-					<a href="#"> KNOW MORE </a>
+				<div class="left-section-below">
+					<div class="left-below-image">
+						<a href="#">
+							<img src="img/key.jpg" alt="Go to!" width="" height="200px">
+						</a>
+					</div>
+					<div class="know-more">
+						<a href="#"> KNOW MORE </a>
+					</div>
 				</div>
 			</div>
-		</div>
 
-		<div class=" upper right-section">
-			<div class="image-digital-extinct">
-				<a href="#">
-				 <img src="img/3.jpg" alt="Go to!" width="" height="407px">
-				</a>
-			</div>
-			<!-- <div class="slider-arrow">
-				<a href="#"><img src="img/11.jpg"></a>
-				<a><img src="img/12.jpg"></a>
-			</div> -->
-		</div>
-	</div>
-
-<!-- for the middle section -->	
-
-	<div class="middle-section">
-
-		<div class="featured-post">
-		<div class="featured-post-text"><p> FEATURED POST </p></div>
-		</div>
-
-		<div class="image-block first-image">
-			<div class="image image1">
-				<img src="img/6.jpg" width="100%" height="320px">
-			</div>
-			<div class="black-effect">
-				
-			</div>
-			<div class="text text1">
-			 <div class="date"><p> date </p></div>
-			 <div class="digital"><a href="#">DIGITAL MARKETING </a></div>
-			 <div class="comments"><a href="#">COMMENTS</a></div>
-			 <div class="text"><p>Its truly is excellent..s</p></div>
+			<div class=" upper right-section">
+				<div class="slider">
+				 <div><img src="img/marketrs.jpg" height="407px"></div>
+				 <div><img src="img/marketrs.jpg" height="407px"></div>
+				</div>	
 			</div>
 		</div>
 
-		<div class="image-block second-image" id="image-display-1">
-			<div class="image image2">
-				<img src="img/4.jpg" width="100%" height="320px">
+		<!-- for the middle section -->	
+
+		<div class="middle-section">
+
+			<div class="featured-post">
+			<div class="featured-post-text"><p> FEATURED POST </p></div>
 			</div>
-			<div class="text text2" id="text-display-1">
-				<div class="date"><p> date </p></div>
-				<div class="digital"><a href="#">DIGITAL MARKETING</a></div>
+
+			<div class="image-block first-image">
+				<div class="image image1">
+					<img src="img/feature-image1.jpg" width="100%" height="320px">
+				</div>
+				<div class="black-effect">
+				</div>
+				<div class="text text1">
+				 <div class="date"><p> date </p></div>
+				 <div class="digital"><a href="#">DIGITAL MARKETING </a></div>
+				 <div class="comments"><a href="#">COMMENTS</a></div>
+				 <div class="description"><p>Its truly is excellent..s</p></div>
+				</div>
+			</div>
+
+			<div class="image-block second-image" id="image-display-1">
+				<div class="image image2">
+					<img src="img/feature-image2.jpg" width="100%" height="320px">
+				</div>
+				<div class="text text2" id="text-display-1">
+					<div class="date"><p> date </p></div>
+					<div class="digital"><a href="#">DIGITAL MARKETING</a></div>
+				</div>
+			</div>
+
+			<div class="image-block third image" id="image-display-2">
+				<div class="image image3">
+				<img src="img/feature-image3.jpg" width="100%" height="320px">
+				</div>
+				<div class="text text3" id="text-display-2">
+					<div class="date"><p> date </p></div>
+					<div class="digital"><a href="#">DIGITAL MARKETING</a></div>
+				</div>
 			</div>
 		</div>
 
-		<div class="image-block third image" id="image-display-2">
-			<div class="image image3">
-			<img src="img/5.jpg" width="100%" height="320px">
-			</div>
-			<div class="text text3" id="text-display-2">
-				<div class="date"><p> date </p></div>
-				<div class="digital"><a href="#">DIGITAL MARKETING</a></div>
-			</div>
+		<!-- for the lower section  -->
+		<div class="lower-section">
+			<h2 style="font-weight:400;">VIEWS AND OPINIONS ON </h2>	
+			<h2>ADVERTISING, BRANDS, CAMPAIGNS & CAMPAIGNS </h2>
 		</div>
-	</div>
 
-	<div class="lower-section">
-		<h2>VIEWS AND OPINIONS ON </h2>	
-		<h2>ADVERTISING, BRANDS, CAMPAIGNS & CAMPAIGNS </h2>
-	</div>
+		<!-- for the first footer -->
+		<div class="footer-1">
+			<div class="footer-inside">
 
-	<div class="footer-1">
-		<div class="footer-inside">
+				<button class="accordion">POPULAR POST</button>
+				<div class=" footer-post popular-post">
+					<h4 class="popular-post-heading">POPULAR POST</h4>
+					<div class="posts-inside">
+						<div class="myslides fade1">
+							<div class="posts post1">
+								<div class="post-content content1"><a>Whatsmore with Whatsapp</a></div>
+								<div class="post-date date1"><p>18 Jun 2016</p></div>
+								<div class="post-comment comment1"><a>2 comments</a></div>
+							</div>
 
-			<div class=" footer-post popular-post">
-				<h4 class="popular-post-heading">POPULAR POST</h4>
-				<div class="posts-inside">
-					<div class="posts post1">
-						<div class="post-content content1"><a>Whatsmore with Whatsapp</a></div>
-						<div class="post-date date1"><p>18 Jun 2016</p></div>
-						<div class="post-comment comment1"><a>2 comments</a></div>
+							<div class="posts post2">
+								<div class="post-content content2"><a>Right to be forgotten- Damnatlo Memoriae</a></div>
+								<div class="post-date date2"><p>18 Jun 2016</p></div>
+								<div class="post-comment comment2"><a>2 comments</a></div>
+							</div>
+
+							<div class="posts post3">
+								<div class="post-content content3"><a>Exactly what are good suggestions to craft a successful expression paper?</a></div>
+								<div class="post-date date3"><p>18 Jun 2016</p></div>
+								<div class="post-comment comment3"><a>2 comments</a></div>
+							</div>
+						</div> 
+
+						<div class="myslides fade2">
+							<div class="posts post4">
+								<div class="post-content content3"><a>Exactly what are good suggestions to craft a successful expression paper?</a></div>
+								<div class="post-date date4"><p>18 Jun 2016</p></div>
+								<div class="post-comment comment4"><a>2 comments</a></div>
+							</div>
+						</div>
 					</div>
 
-					<div class="posts post2">
-						<div class="post-content content2"><a>Whatsmore with Whatsapp</a></div>
-						<div class="post-date date2"><p>18 Jun 2016</p></div>
-						<div class="post-comment comment2"><a>2 comments</a></div>
-					</div>
-
-					<div class="posts post3">
-						<div class="post-content content3"><a>Whatsmore with Whatsapp</a></div>
-						<div class="post-date date3"><p>18 Jun 2016</p></div>
-						<div class="post-comment comment3"><a>2 comments</a></div>
-					</div>
-				</div>
-
-				<div class="arrows">
-					<a href="#" class="left"></a>
-					<a href="#" class="right"></a>
-					
-				</div>
-			</div>
-
-			<div class="footer-post twitter">
-				<h4 class="twitter-post-heading">TWITTER</h4>
-				<div class="twitter-inside">
-					<div class="tweets tweet1">
-						<div class="time time1"><p>21 Hours Ago</p></div>
-						<div class="tweet-content tweet-content1"><p>ggbhhh</p></div>
-					</div>
-					<div class="tweets tweet2">
-						<div class="time time2"><p>21 Hours Ago</p></div>
-						<div class="tweet-content tweet-content2"><p>ggbhhh</p></div>
+					<div class="arrows">
+						<a class="left" ></a>
+						<a class="right"></a>
 					</div>
 				</div>
 
-			</div>
-
-			<div class=" footer-post archives">
-				<h4 class="archives-post-heading">ARCHIVES</h4>
-				<div class="archives-inside">
-					<div class="archives-content archive1">
-						<div class="month month1"><p>May</p></div>
-						<div class="number number1"><p>75</p></div>
-					</div>
-
-				<div class="archives-content archive2">
-						<div class="month month2"><p>May</p></div>
-						<div class="number number2"><p>75</p></div>
+				<button class="accordion">TWITTER</button>
+				<div class="footer-post twitter">
+					<h4 class="twitter-post-heading">TWITTER</h4>
+					<div class="twitter-inside">
+						<div class="tweets tweet1">
+							<div class="time time1"><p>21 Hours Ago</p></div>
+							<div class="tweet-content tweet-content1"><p>The latest ABCD (Advertising,Brands,Campaigns and Digital)Daily! https://te.co/MJTB3xue Thanks to @Vani_author @grumpeoldma</p></div>
+						</div>						
+						<div class="tweets tweet2">
+							<div class="time time2"><p>21 Hours Ago</p></div>
+							<div class="tweet-content tweet-content2"><p>RT @sander_carter: I laughed so hard at this one!!! #socialselling Did my friend get the job?YEShttps://gdghf</p></div>
+						</div>
 					</div>
 				</div>
 
-				<div class="archives-content archive3">
-						<div class="month month2"><p>May</p></div>
-						<div class="number number2"><p>75</p></div>
-				</div>
+				<button class="accordion">ARCHIVES</button>
+				<div class=" footer-post archives">
+					<h4 class="archives-post-heading">ARCHIVES</h4>
+					<div class="archives-inside">
+						<div class="archives-content archive1">
+							<div class="month month1"><p>May</p></div>
+							<div class="number number1"><p>75</p></div>
+						</div>
 
-			</div>
-
-			<div class="footer-post popular-topics">
-				<h4 class="popular-topics-post-heading">POPULAR TOPICS</h4>
-				<div class="popular-topics-inside">
-				
-					<div class="topics topic1">
-						<div class="title title1"><p>Best Pratices</p></div>
-						<div class="link-arrow link-arrow-transparent link1"><a href="#"><img src="img/14.jpg"></a></div>
-						<div class="link-arrow link-arrow-white link2"><a href="#"><img src="img/13.jpg"></a></div>
-
-					</div>
+						<div class="archives-content archive2">
+							<div class="month month2"><p>April</p></div>
+							<div class="number number2"><p>24</p></div>
+						</div>
 					
 
-					<div class="topics topic1">
-						<div class="title title2"><p>Best Pratices</p></div>
-						<div class="link-arrow link-arrow-transparent link1"><a href="#"><img src="img/14.jpg"></a></div>
-						<div class="link-arrow link-arrow-white link2"><a href="#"><img src="img/13.jpg"></a></div>
+						<div class="archives-content archive3">
+							<div class="month month3"><p>March</p></div>
+							<div class="number number3"><p>12</p></div>
+						</div>
+				
 
+						<div class="archives-content archive4">
+							<div class="month month4"><p>February</p></div>
+							<div class="number number4"><p>36</p></div>
+						</div>			
+
+						<div class="archives-content archive5">
+							<div class="month month5"><p>January</p></div>
+							<div class="number number5"><p>24</p></div>
+						</div>
 					</div>
+				</div>
 
-					<div class="topics topic1">
-						<div class="title title3"><p>Best Pratices</p></div>
-						<div class="link-arrow link-arrow-transparent link1"><a href="#"><img src="img/14.jpg"></a></div>
-						<div class="link-arrow link-arrow-white link2"><a href="#"><img src="img/13.jpg"></a></div>
+				<!-- popular topics -->
+				<button class="accordion">POPULAR TOPICS</button>
+				<div class="footer-post popular-topics">
+					<h4 class="popular-topics-post-heading">POPULAR TOPICS</h4>
+					<div class="popular-topics-inside">
+					
+						<div class="topics topic1">
+							<div class="title title1"><p>Best Pratices</p></div>
+							<div class="link-arrow link-arrow-transparent link1"><a href="#"><img src="img/rightarrow.png"></a></div>
+							<div class="link-arrow link-arrow-white link2"><a href="#"><img src="img/right-white.png"></a></div>
+						</div>
+
+						
+
+						<div class="topics topic2">
+							<div class="title title2"><p>Cardinal Rules</p></div>
+							<div class="link-arrow link-arrow-transparent link1"><a href="#"><img src="img/rightarrow.png"></a></div>
+							<div class="link-arrow link-arrow-white link2"><a href="#"><img src="img/right-white.png"></a></div>
+						</div>
+
+						<div class="topics topic3">
+							<div class="title title3"><p>E-mail marketing</p></div>
+							<div class="link-arrow link-arrow-transparent link1"><a href="#"><img src="img/rightarrow.png"></a></div>
+							<div class="link-arrow link-arrow-white link2"><a href="#"><img src="img/right-white.png"></a></div>
+						</div>
+
+						<div class="topics topic4">
+							<div class="title title4"><p>EU</p></div>
+							<div class="link-arrow link-arrow-transparent link1"><a href="#"><img src="img/rightarrow.png"></a></div>
+							<div class="link-arrow link-arrow-white link2"><a href="#"><img src="img/right-white.png"></a></div>
+						</div>
+
+						<div class="topics topic5">
+							<div class="title title5"><p>Google</p></div>
+							<div class="link-arrow link-arrow-transparent link1"><a href="#"><img src="img/rightarrow.png"></a></div>
+							<div class="link-arrow link-arrow-white link2"><a href="#"><img src="img/right-white.png"></a></div>
+						</div>
 					</div>
-
 				</div>
 			</div>
 		</div>
-	</div>
-
-	<div class="main-footer">
-		<div class="copyright-footer"><p>Copyright @ 2016 ABCD of Marketing.All Rights Reserved.</p></div>
-		<div class="top-of-page">
-			<img src="img/top.jpg" class="top" width="37px" height="41px">
+		<!-- for the main footer -->
+		<div class="main-footer">
+			<div class="copyright-footer"><p>Copyright @ 2016 ABCD of Marketing.All Rights Reserved.</p></div>
+			<div class="top-of-page">
+				<img src="img/top.jpg" class="top" width="37px" height="41px">
+			</div>
 		</div>
-	</div>
+	</body>
+</html> 
 
 			
 			
@@ -231,6 +273,3 @@
 
 	
 
-
-</body>
-</html> 

@@ -1,0 +1,15 @@
+.slick-prev {
+	top: 91%;
+	left: 25px;
+	z-index: 999;
+	text-indent: -9999px;
+	background: url("../img/slider-left.png") no-repeat;
+}
+
+.slick-next {
+	top: 91%;
+	left: 44px;
+	text-indent: -9999px;
+	background: url("../img/slider-right.png") no-repeat;
+}
+
