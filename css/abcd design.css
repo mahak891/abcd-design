@@ -1,5 +1,6 @@
 body{
 	margin: 0;
+  font-family: 'Electrolize', sans-serif;
 }
 
 .site-header {
@@ -11,6 +12,7 @@ body{
 	line-height: 50px;
   height: 50px;
   position: relative;
+  margin-top: 1%;
 }
 
 .hamburger {
@@ -21,14 +23,14 @@ body{
 }
 
 .title-area {
-	width: 25%;
+	width: 32%;
 	display: inline-block;
   line-height: normal;
   vertical-align: middle;
 }
 
 .title-area a {
-	padding-left: 52px;
+	padding-left: 40%;
 }
 @media screen and (min-width:1241px) {
 	.site-menu {
@@ -45,7 +47,8 @@ body{
 .main-nav li {
 	float: left;
 	padding: 2px;
-	padding-right: 22px;
+	padding-right: 15px;
+	font-size: 13px;
 }
 
 .main-nav li.icon {
@@ -86,26 +89,46 @@ body{
 
 .main-nav {
 	list-style-type: none;
+	font-family: 'Electrolize', sans-serif;
 }
 
 .upper-section {
-	margin-top:1.5%;
-	width: 76%;
-	margin: auto;
+	width: 80%;
+	margin: 1.5% auto;
 	text-align: center;
 }
 
 .left-section {
-	width:28%;
+	width:26%;
+	margin-right: 20px;
 }
 
 .left-section-upper {
-	padding-bottom: 3px;
+	padding-bottom: 20px;
+	position: relative;
 }
 
 .left-section img {
 	width: 100%;
 }
+
+/*.event-calendar {
+	position: absolute;
+  background-color: #ff6f00;
+  text-align: center;
+  bottom: 11%;
+  left: 0%;
+  padding: 13px 0;
+  width: 100%;
+}
+
+.event-calendar a {
+	text-decoration: none;
+	color: white;
+}
+.event-calendar p {
+	margin: 0;
+}*/
 
 .left-section-below {
 	padding-bottom: 3px;
@@ -130,7 +153,7 @@ body{
 }
 
 .right-section {
-	width: 71%;
+	width: 65%;
 	position: relative;
 }
 
@@ -159,7 +182,7 @@ body{
 .featured-post {
 	background-color: #F1402C;
 	width: 8%;
-	height: 320px;
+	height: 365px;
 	position: relative;
 	float: left;
 	
@@ -173,8 +196,8 @@ body{
 	border-left: 44px solid #F1402C;
 	border-bottom: 37px solid transparent;
 	position: absolute;
-	left: 94%;
-	top: 35%;
+	left: 90%;
+	top: 28%;
 	z-index: 2;
 }
 
@@ -182,7 +205,7 @@ body{
 	transform: rotate(-90deg);
 	color: white;
 	position: absolute;
-	bottom: 48px;
+	bottom: 81px;
 	right: -37px;
   font-size: 17px;
 }
@@ -200,9 +223,9 @@ body{
 .black-effect {
 	position: absolute;
 	background-color: rgba(0,0,0,0.9);
-	height: 320px;
+	height: 365px;
 	width: 100%;
-	bottom: 3px;
+	bottom: 4px;
 }
 
 .text {
@@ -215,7 +238,7 @@ body{
 }
 	
 .text1 {
-	left: 26%;
+	left: 17%;
   bottom: 34%;
 }
 
@@ -245,8 +268,13 @@ body{
 
 
 .date p {
-	margin: 0;
+  margin: 0 0 8px;
 	color: #909294;
+	font-size: 12px;
+}
+
+.digital {
+	padding-bottom: 15px;
 }
 
 .digital a {
@@ -273,11 +301,10 @@ body{
 	background-color: #252930;
 	margin-top: 3px;
   width: 100%;
-  font-family:"Times New Roman", Times, serif;
 }
 
 .footer-inside {
-	width: 92%;
+	width: 81%;
 	margin: auto;
 	color: #FBFBFB;
 	padding: 33px 10px;
@@ -308,7 +335,7 @@ div.posts:last-child,div.tweets:last-child,div.archives-content:last-child,div.t
 }
 
 .post-content a {
-	font-size: 14px;
+	font-size: 13px;
 	color: #F1F1F1;
 }
 
@@ -335,9 +362,18 @@ div.posts:last-child,div.tweets:last-child,div.archives-content:last-child,div.t
 }
 
 .arrows {
+}
+
+.left {
   position: absolute;
-  top: 42px;
-  right: 0;
+  top: 18px;
+  right: 11px;
+}
+
+.right {
+	position: absolute;
+  top: 18px;
+  right: -23px;
 }
 
 .time p {
@@ -347,7 +383,7 @@ div.posts:last-child,div.tweets:last-child,div.archives-content:last-child,div.t
 }
 
 .twitter {
-	width: 27%;
+	width: 28%;
 }
 
 .tweets {
@@ -358,6 +394,10 @@ div.posts:last-child,div.tweets:last-child,div.archives-content:last-child,div.t
 .tweet-content p {
 	margin-top: 10px;
 	font-size: 13px;
+}
+
+.tweet-content a {
+	color: #15A9D0;
 }
 
 .tweet-content p:link{
@@ -375,7 +415,7 @@ div.posts:last-child,div.tweets:last-child,div.archives-content:last-child,div.t
 }
 
 .archives {
-	width: 22%;
+	width: 20%;
 }
 
 .archives-content {
@@ -404,7 +444,7 @@ div.posts:last-child,div.tweets:last-child,div.archives-content:last-child,div.t
 }
 
 .popular-topics {
-	width: 22%;
+	width: 20%;
 }
 
 .topics {
@@ -508,6 +548,7 @@ a.right:active {
 .copyright-footer p {
 	text-align: center;
 	padding-top: 2%;
+	font-size: 11px;
 }
 
 .top {
